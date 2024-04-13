@@ -63,6 +63,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SIT-Mod-Ports\References\Comfort.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="StayInTarkov, Version=1.10.8867.33190, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SIT-Mod-Ports\References\StayInTarkov.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
