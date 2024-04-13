@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Aki.Reflection.Patching;
+using StayInTarkov;
 using Comfort.Common;
 using dvize.GodModeTest;
 using EFT;
@@ -27,7 +27,7 @@ namespace dvize.DadGamerMode.Patches
         {
 
             //original functionality
-            __result = slots.Select(new Func<Slot, Item>(EquipmentClass.Class2073.class2073_0.method_1)).Sum(new Func<Item, float>(__instance.method_12));
+            __result = slots.Select(new Func<Slot, Item>(EquipmentClass.Class2083.class2083_0.method_1)).Sum(new Func<Item, float>(__instance.method_12));
 
             // Get the total weight reduction setting
             float totalWeightReduction = dadGamerPlugin.totalWeightReductionPercentage.Value;
