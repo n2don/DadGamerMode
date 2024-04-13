@@ -5,7 +5,7 @@ using EFT;
 using EFT.HealthSystem;
 using UnityEngine;
 
-using AbstractIEffect = EFT.HealthSystem.ActiveHealthController.AbstractEffect;
+using AbstractIEffect = EFT.HealthSystem.ActiveHealthController.GClass2415;
 
 namespace dvize.DadGamerMode.Features
 {
